@@ -1,0 +1,17 @@
+div{background:lawngreen;width: 300px;height: 300px;position: relative;top: 0;right: 0;}
+div.A{background: blue;width:100px;height: 100px;position:absolute;right: 0;bottom: 0;}
+p.New{width: 300px;height: 200px;overflow: auto;background-color: aqua;}
+img{float: left;margin: 0 auto;display: block;width: 50px;height: 50px;}
+div.B{background: palevioletred;width: 300px;height: 300px;float: none;margin: 0 auto;overflow: auto;}
+li:nth-child(2n+1){color:brown}
+p::first-letter{color: blue;font-size: 50px;}
+h1{text-align: center;text-transform: capitalize;position: relative;padding-bottom: 5px;color: brown;padding-top: 5px;}
+h1::after{position: absolute;text-align: center;background-color: brown;content: "";width:100px ;height:5px ;bottom: 0px;left:50% ;
+margin-left: -50px;}
+h1::before{position: absolute;text-align: center;background-color: brown;content: "";width:100px ;height:5px ;top: 0px;left:50% ;
+    margin-left: -50px;}
+div.One{background: green;width: 200px;height: 100px;float: left;margin-right: 10px;opacity: 1.0;}
+div.Two{background: green;width: 200px;height: 100px;float: left;margin-right: 10px;opacity: 0.50;}
+div.Three{background: green;width: 200px;height: 100px;float: left;margin-right: 10px;opacity: 0.30;}
+div.Four{background: green;width: 200px;height: 100px;float: left;margin-right: 10px;opacity: 0.20;}
+body{background:url(img/family.jpg)}
